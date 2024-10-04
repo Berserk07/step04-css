@@ -1,0 +1,47 @@
+/* reset */
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* размер блока = margin + (контент + padding + border ); */
+}
+/* begin setup */
+body{
+    background-color: #ccc;
+    font-size: 22px ;
+}
+
+/* размер блока классика = контент + margin + padding + border */
+.wrapper {
+    /* width: calc(900px + 3*20px + 3*40px + 3*10px); */
+    width: calc(900px + 3*20px );
+    background-color: #fff;
+    /* margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 100px auto;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 25px;
+    border: 3px solid blue
+}
+
+.box1{
+    background-color: #f00;
+}
+
+.box2{
+    background-color: yellow;
+}
+
+.box3{
+    background-color: green;
+}
